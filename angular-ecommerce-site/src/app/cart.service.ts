@@ -7,6 +7,7 @@ import { Product } from './product';
 export class CartService {
 
   items: Product[] = [];
+  cartChanged: any;
 
   constructor() { }
 
